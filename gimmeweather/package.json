@@ -1,0 +1,29 @@
+{
+  "name": "gimmeweather",
+  "version": "1.0.0",
+  "description": "A CLI that gives daily summaries of the weather (courtesy of the NOAA)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NOAA",
+    "CLI"
+  ],
+  "author": "Shabnam Mokhtarani",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "configstore": "^5.0.0",
+    "figlet": "^1.2.3",
+    "inquirer": "^6.4.1",
+    "minimist": "^1.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "request-promise-native": "^1.0.7"
+  },
+  "bin": {
+    "weather": "bin/getweather"
+  }
+}
